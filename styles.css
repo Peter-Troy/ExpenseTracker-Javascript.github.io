@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Apply gradient background */
+    background: linear-gradient(to right, #ac117dac, #01ffdda0);
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    max-width: 700px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.button-container{
+    display: flex; /* Display the buttons horizontally */
+    gap: 10px; /* Add some spacing between the buttons */
+    margin-top: 20px; /* Add some spacing from the top */
+}
+
+#productForm select,
+#productForm input {
+    width: 150px; /* Set the width of the select and input fields */
+    margin-bottom: 10px; /* Add some vertical spacing between fields */
+}
+
+#productForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submitBtn {
+    margin-top: 10px; /* Add spacing above the button */
+}
+
+.expense-button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(78, 172, 226);
+}
+
+.expense-button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 15px rgb(2, 79, 102);
+}
+
+#addNewProductBtn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(78, 172, 226);
+}
+
+#addNewProductBtn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 15px rgb(2, 79, 102);
+}
+
+#submitBtn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(25, 175, 58);
+}
+
+#submitBtn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 15px rgb(94, 165, 122);
+}
+
+.search-button{
+    width: 70px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(25, 175, 58);
+}
+
+.search-button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 15px rgb(94, 165, 122);
+}
+
+.back-button{
+    width: 90px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(78, 172, 226);
+}
+
+.back-button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 15px rgb(2, 79, 102);
+}
+
+.export-button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(25, 175, 58);
+}
+
+.export-button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 15px rgb(94, 165, 122);
+}
+
+.clear-button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(199, 61, 52);
+}
+
+.clear-button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 15px rgb(66, 15, 15);
+}
+
+#entryList {
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+/* Style for each data item */
+.entry-item {
+    border: 5px solid #ffffff;
+    padding: 10px;
+    background-color: rgb(138, 188, 207);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}

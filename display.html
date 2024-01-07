@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Farm Tracker - Entries</title>
+</head>
+<body>
+    <div class="container">
+      
+            <h1>Expense Tracker - Entries</h1>
+            <div class="button-container">
+                <a href="index.html">
+                    <button class="back-button">Back</button>
+                </a>
+                <input type="text" id="searchInput" placeholder="Search product...">
+            <button class="search-button" onclick="searchEntries()">Search</button>
+            <button class="export-button" onclick="exportToCSV()">Export to Excel</button>
+            <button class="clear-button" onclick="confirmClearEntries()">Clear Entries</button>
+            </div>
+           
+            <ul id="entryList"></ul>
+       
+    </div>
+    <script src="display.js"></script>
+</body>
+</html>

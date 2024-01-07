@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Farm Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <div class="button-container">
+            <a href="display.html">
+                <button class="expense-button">Expenses</button>
+            </a>
+            <button id="addNewProductBtn">Add New Product</button>
+        </div>
+       
+        <div class="button-container">
+            <div id="productForm" class="hidden">
+                <label for="productName">Select Product:</label>
+                <select id="productName"></select>
+                <br>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity">
+                <br>
+                <label for="price">Price:</label>
+                <input type="number" id="price">
+                <br>
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+                <br>
+                <button id="submitBtn">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
